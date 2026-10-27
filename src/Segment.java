@@ -37,5 +37,19 @@ public class Segment {
 
     }
 
+    public Point getStartPoint() {
+        return startPoint;
+    }
 
+    public Point getEndPoint() {
+        return endPoint;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
 }
